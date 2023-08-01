@@ -1,0 +1,11 @@
+.button {
+    background-color: rgb(77, 77, 77);
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 10rem;
+    max-width: 100%;
+    color: aliceblue;
+    margin: 10px;
+}
