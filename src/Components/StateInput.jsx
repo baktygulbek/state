@@ -100,16 +100,16 @@ const addExpense = (event) =>{
         <div className='new-expense__controls'>
             <div className='new-expens__contols'>
                 <label htmlFor="">Name</label>
-                <input name='name'onChange={inputChangeHandler} type="text" />
+                <input value={name} name='name'onChange={inputChangeHandler} type="text" />
             </div>
         </div>
            <div className='new-expense__controls'>
             <label htmlFor="">Soname</label>
-            <input name='soname'onChange={inputChangeHandler} type="text" />
+            <input value={soname} name='soname'onChange={inputChangeHandler} type="text" />
            </div>
            <div className='new-expense__controls'>
             <label htmlFor="">Date</label>
-            <input name='date'onChange={inputChangeHandler} type="number"/>
+            <input value={date} name='date'onChange={inputChangeHandler} type="number"/>
            </div>
            <Button className='new expense__action' type='submit'>Add</Button>
 
